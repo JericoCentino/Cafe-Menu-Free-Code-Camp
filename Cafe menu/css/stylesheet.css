@@ -1,0 +1,56 @@
+body {
+    background-image: url(../images/coffeecheesecake.webp);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: sans-serif;
+}
+.container {
+    width: 80%;
+    max-width: 600px;
+    background-color: rgba(92, 64, 51, 0.85);
+    margin-left: auto;
+    margin-right: auto;
+    padding: 15px;
+}
+.header {
+
+    text-align: center;
+    color: aliceblue;
+}
+.est {
+    font-style: italic;
+
+}
+img {
+    margin-top: -23px;
+    height: 50px;
+    width: 50px;
+}
+.menu {
+    max-width: 500px;
+    text-align: center;
+    margin: auto;
+    color: aliceblue;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+section {
+    margin-bottom: 30px;
+}
+.item {
+    display: flex;
+    justify-content: space-between;
+}
+.footer {
+    text-align: center;
+    margin-top: 15px;
+}
+a {
+    text-decoration: none;
+    color: aliceblue;
+}
+a:hover {
+    color: d4b996;
+}
